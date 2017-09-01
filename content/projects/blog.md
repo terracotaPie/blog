@@ -19,7 +19,7 @@ a config.toml and deploying to [github
 pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/) it was time
 for some personalization. You can see beautiful avatar on the front page showing
 my deep appreciation for animated series([South Park Avatar
-Creator](southpark.cc.com/avatar)). Mongolian hat is the most important piece,
+Creator](http://southpark.cc.com/avatar)). Mongolian hat is the most important piece,
 I happen to be one russian born mongolian :laughing:
 
 Don't forget to enable emojis
