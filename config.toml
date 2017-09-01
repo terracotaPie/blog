@@ -7,9 +7,10 @@ languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Timur Borkhodoev"
-title = "Works"
+title = "Timur Borkhodoev"
 disqusshortname = ""
 pluralizelisttitles = false
+enableEmoji = true
 
 [permalinks]
 blog = "blog/:slug/"
