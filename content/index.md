@@ -8,4 +8,4 @@ Young professional a.k.a code monkey struggling with fitness clothes addiction. 
 ```befunge
 "!emocleW'">:#,_@
 ```
-Please checkout my [projects](http://localhost:1313/projects)
+Please checkout my [projects](/projects)
