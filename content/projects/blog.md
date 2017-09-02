@@ -1,5 +1,5 @@
 ---
-title: "Creating blog in hugo"
+title: "Creating blog using hugo"
 date: 2017-09-01T15:00:23-04:00
 draft: false
 ---
@@ -27,4 +27,57 @@ Don't forget to enable emojis
 ```toml
 enableEmoji = true
 ```
+
+If you want to host it at the root of your github pages you should follow
+deploying on master branch guide. If you follow this guide, this script
+simplifies the process of deployment
+
+```bash
+#!/bin/bash
+
+echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+
+# Build the project.
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg="rebuilding site `date`"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg"
+
+# Push source and build repos.
+git push origin master
+
+# Come Back up to the Project Root
+cd ..
+```
+
+If you did everything correctly, - your repo after deployment should look
+something like this:
+![repo](/img/repo.png "repo screen")
+
+Look at that speed!!!
+```bash
+$ hugo
+Started building sites ...
+Built site for language en:
+0 draft content
+0 future content
+0 expired content
+4 regular pages created
+10 other pages created
+0 non-page files copied
+0 paginator pages created
+0 tags created
+0 categories created
+total in 17 ms
+```
+
 
