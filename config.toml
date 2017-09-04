@@ -18,7 +18,7 @@ blog = "blog/:slug/"
 [params]
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Example blog"
+description = "Timur Borkhodoev Portfolio"
 copyright = "Copyright © 2017 Timur Borkhodoev"
 logofile = "img/logo.png"
 faviconfile = "img/logo.png"
