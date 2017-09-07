@@ -5,7 +5,7 @@ draft: true
 ---
 
 For a while I wanted to create a toy compiler. Just so I can boast about which
-language is the best :fire: .So I took a grad level course. Few things to learn here:
+language is the best :fire:.So I took a grad level course. Few things to learn here:
 
   * Code generation
 
