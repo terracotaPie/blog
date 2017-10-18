@@ -1,7 +1,7 @@
 ---
 title: "Vim"
 date: 2017-10-07T22:31:45-04:00
-draft: true
+draft: false
 ---
 
 Back to coding in C/C++ this year for an Advanced Operating System course. I've
@@ -68,7 +68,12 @@ $ ./configure --with-features=huge \
 --prefix=$HOME/userland
 ```
 
+There is a good [article](https://shapeshed.com/vim-packages/) detailing a
+combination of native plugin management and git. You can follow that. There are
+also bash scripts that might be better solution for people that don't like git.
+
+
 Now we are ready for YouCompleteMe
-[plugin](https://github.com/Valloric/YouCompleteMe). Following instructions
-should be straight-forward. Next step was to add configuration file for my
-project and modify cmake to export compilation symbols
+[plugin](https://github.com/Valloric/YouCompleteMe). Welp clang that is
+available on cdf is too old to be used with YCM. I'll finish instruction on
+clang in next week.
